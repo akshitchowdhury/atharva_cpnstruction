@@ -15,7 +15,7 @@ const HomeBody = () => {
       </div>
 
       {/* Right Side: Text Block */}
-      <div className="lg:w-1/2 w-full lg:pl-12 leading-loose">
+      <div className="lg:w-1/2 w-full p-2 -mx-2 lg:py-12 leading-loose">
         <h2 className="text-red-600 font-thin text-2xl lg:text-4xl mb-4">
           What Atharva Constructions & Interiors special?
         </h2>

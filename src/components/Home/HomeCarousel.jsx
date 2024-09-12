@@ -12,10 +12,10 @@ const HomeCarousel = () => {
     <h1 className='text-center text-red-600 font-thin text-2xl md:text-4xl my-4'>
     Design Themes curated by the best in business
     </h1>
-    <h3 className='text-center text-black font-thin text-2xl md:text-xl my-4'>
+    <h3 className=' text-justify text-black font-thin text-lg md:text-xl my-4'>
     Signature Designs themes are only available for a short period of time.
     </h3>
-    <h3 className='text-center text-black font-thin text-2xl md:text-xl my-4'>
+    <h3 className='text-justify text-black font-thin text-lg md:text-xl my-4'>
         
     Experience the premium interior design services of Atharva Constructions & Interiors.
     </h3>
