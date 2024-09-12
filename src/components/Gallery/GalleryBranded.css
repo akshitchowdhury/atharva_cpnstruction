@@ -1,0 +1,22 @@
+.galleryBrand {
+    background-image: url("../../assets/homeBg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative; /* Required to position the pseudo-element */
+}
+
+.galleryBrand::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Light black tint with 40% opacity */
+    z-index: 1; /* Make sure it's behind the content */
+}
+
+.galleryBrand > * {
+    position: relative;
+    z-index: 2; /* Ensures the content appears above the overlay */
+}
