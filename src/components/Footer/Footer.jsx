@@ -1,6 +1,7 @@
 import React from 'react'
 import { MapPin, Mail, Phone, Home, PersonStandingIcon, GalleryHorizontalEndIcon, WorkflowIcon } from 'lucide-react'
 import logo from "../../assets/logo.png"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center">
               <PersonStandingIcon className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="mailto:hello@bonito.in" className="text-gray-700 hover:text-[#FF5757]">About</a>
+              <Link to="/about" className="text-gray-700 hover:text-[#FF5757]">About</Link>
             </div>
             <div className="flex items-center">
               <GalleryHorizontalEndIcon className="w-5 h-5 text-[#FF5757] mr-2" />
@@ -36,7 +37,8 @@ const Footer = () => {
             </div>
             <div className="flex items-center">
               <Phone className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="tel:02235005626" className="text-gray-700 hover:text-[#FF5757]">Contact</a>
+              <Link to="/contact"
+               className="text-gray-700 hover:text-[#FF5757]">Contact</Link>
             </div>
           </div>
      {/*-------------------Quick Links--------------------------------------------  */}
