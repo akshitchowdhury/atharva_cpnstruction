@@ -16,6 +16,7 @@ import "@fontsource/taviraj/400.css"; // Specify weight
 import "@fontsource/taviraj/400-italic.css"; 
 import Gallery from './components/Gallery/Gallery';
 import Services from './components/Services/Services';
+import Career from './components/Career/Career';
 function App() {
   
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Hero/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/services" element={<Services/>} />
+        <Route path="/career" element={<Career/>} />
         <Route path="/gallery" element={<Gallery/>} />
 
       <Route path="/contact" element={<Contact/>} />

@@ -37,19 +37,27 @@ const Nav = () => {
               About
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
-            {/* <Link 
+            <Link 
               to="/services" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"
             >
               Services
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-            </Link> */}
-            <ServicesDropdown/>
+            </Link>
+            {/* <ServicesDropdown/> */}
             <Link 
               to="/gallery" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"
             >
               Gallery
+              <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+            </Link>
+            
+            <Link 
+              to="/career" 
+              className="text-zinc-950  text-lg hover:text-red-600 relative group"
+            >
+              Career
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
             
@@ -80,8 +88,9 @@ const Nav = () => {
           <div className="md:hidden px-6 py-4 space-y-4 z-10">
             <Link onClick={handleClick} to="/" className="block text-black hover:text-red-600">Home</Link>
             <Link onClick={handleClick} to="/about" className="block text-black hover:text-red-600">About</Link>
-            <Link onClick={handleClick} to="/packages" className="block text-black hover:text-red-600">Packages</Link>
             <Link onClick={handleClick} to="/services" className="block text-black hover:text-red-600">Services</Link>
+            <Link onClick={handleClick} to="/gallery" className="block text-black hover:text-red-600">Gallery</Link>
+            <Link onClick={handleClick} to="/career" className="block text-black hover:text-red-600">Career</Link>
             <Link onClick={handleClick} to="/contact" className="block text-black hover:text-red-600">Contact Us</Link>
             <button className="bg-red-600 text-white w-full py-2 rounded-full">Book a Consultation</button>
           </div>
