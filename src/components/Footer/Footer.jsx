@@ -50,16 +50,13 @@ const Footer = () => {
             </div>
             <div className="flex items-center md:justify-normal justify-center">
               <Mail className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="mailto:hello@bonito.in" className="text-gray-700 hover:text-[#FF5757]">hello@atharva_constructions.in</a>
+              <a href="mailto:info@atharvagroups.co" className="text-gray-700 hover:text-[#FF5757]">info@atharvagroups.co</a>
             </div>
             <div className="flex items-center md:justify-normal justify-center">
               <Phone className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="tel:08068455055" className="text-gray-700 hover:text-[#FF5757]">080 68455055 (Bengaluru)</a>
+              <a href="tel:08068455055" className="text-gray-700 hover:text-[#FF5757]">+91 9606974285</a>
             </div>
-            <div className="flex items-center md:justify-normal justify-center">
-              <Phone className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="tel:02235005626" className="text-gray-700 hover:text-[#FF5757]">022 35005626 (Mumbai)</a>
-            </div>
+            
           </div>
 
 
@@ -68,7 +65,7 @@ const Footer = () => {
 
           <div className="flex flex-col space-y-2">
             <a href="/portfolio" className="text-gray-700 hover:text-[#FF5757]">Portfolio</a>
-            <a href="/blogs" className="text-gray-700 hover:text-[#FF5757]">Blogs</a>
+            
           </div>
         </div>
 

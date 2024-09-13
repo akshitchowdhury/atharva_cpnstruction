@@ -1,6 +1,6 @@
 import React from 'react'
 import homeBg from "../../assets/heroBg.png"
-import heroMob from "../../assets/hero-mob.jpg"	
+import heroMob from "../../assets/hero-mob.png"	
 import HomeBody from './HomeBody'
 import HomeStory from './HomeStory'
 import HomeReview from './HomeReview'
@@ -20,11 +20,13 @@ const Hero = () => {
         className="hidden my-4 sm:block w-full 
         h-[400px] object-cover md:object-cover   sm:h-[500px] md:my-0 md:h-[400px] lg:h-full " 
       />
+      <div className='p-2'> 
       <img 
-        src={homeBg} 
+        src={heroMob} 
         alt="Hero Mobile Background" 
-        className="block sm:hidden w-full h-[400px] object-contain -my-[100px]" 
+        className="block sm:hidden w-full h-full md:h-[400px] object-contain -my-[2px]" 
       />
+      </div>
     </div>
     <HomeBody/>
     <HomeCarousel/>

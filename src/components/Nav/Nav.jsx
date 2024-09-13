@@ -77,7 +77,7 @@ const Nav = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden px-6 py-4 space-y-4">
+          <div className="md:hidden px-6 py-4 space-y-4 z-10">
             <Link onClick={handleClick} to="/" className="block text-black hover:text-red-600">Home</Link>
             <Link onClick={handleClick} to="/about" className="block text-black hover:text-red-600">About</Link>
             <Link onClick={handleClick} to="/packages" className="block text-black hover:text-red-600">Packages</Link>
