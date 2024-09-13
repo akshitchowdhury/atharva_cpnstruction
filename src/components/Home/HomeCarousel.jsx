@@ -8,7 +8,7 @@ import car3 from "../../assets/carousel3.jpg";
 const HomeCarousel = () => {
   return (
     <>
-    <div className='p-6'>
+    <div className='p-6 md:p-12'>
     <h1 className='text-center text-red-600 font-thin text-2xl md:text-4xl my-4'>
     Design Themes curated by the best in business
     </h1>

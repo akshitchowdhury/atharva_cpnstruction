@@ -12,8 +12,8 @@ const Gallery = () => {
         <GalleryHeroText/> 
         
     </div>
-    <GalleryCards/>
-    <GalleryBranded/>
+    {/* <GalleryCards/>
+    <GalleryBranded/> */}
     </>
   )
 }

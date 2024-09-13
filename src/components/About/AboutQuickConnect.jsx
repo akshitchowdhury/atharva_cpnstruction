@@ -118,7 +118,7 @@ export default function AboutQuickConnect() {
             required
           />
           <label htmlFor="agree" className="text-sm">
-            By submitting this form, I agree to be contacted by a member of the Bonito team
+            By submitting this form, I agree to be contacted by a member of the Atharva Constructions and Interiors team.
           </label>
         </div>
         <div className="text-center">

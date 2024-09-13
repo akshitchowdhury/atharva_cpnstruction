@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center md:justify-normal justify-center">
               <Mail className="w-5 h-5 text-[#FF5757] mr-2" />
-              <a href="mailto:hello@bonito.in" className="text-gray-700 hover:text-[#FF5757]">hello@bonito.in</a>
+              <a href="mailto:hello@bonito.in" className="text-gray-700 hover:text-[#FF5757]">hello@atharva_constructions.in</a>
             </div>
             <div className="flex items-center md:justify-normal justify-center">
               <Phone className="w-5 h-5 text-[#FF5757] mr-2" />
@@ -101,11 +101,11 @@ const Footer = () => {
         </div>
         <div className="text-sm text-gray-600 mb-4">
           {/* <h3 className="font-semibold mb-2">Design Styles</h3> */}
-          <div className="flex flex-wrap justify-center gap-2">
+          {/* <div className="flex flex-wrap justify-center gap-2">
             {['Eclectic', 'Victorian', 'Luxe', 'Urban minimalism', 'European', 'Modern European', 'Traditional Indian Style', 'Modern Contemporary', 'Moroccan Theme'].map((style, index) => (
               <span key={index} className="hover:text-[#FF5757] cursor-pointer">{style}</span>
             ))}
-          </div>
+          </div> */}
         </div>
         <div className="text-center text-xs text-gray-500">
           © Copyright 2023, Atharva Construction and Interior. All rights reserved.

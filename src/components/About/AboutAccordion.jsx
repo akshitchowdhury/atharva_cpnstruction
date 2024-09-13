@@ -16,21 +16,24 @@ const AboutAccordion = () => {
                     Create a Home that Embodies your Personality
                 </h1>
                 <h3 onClick={openPara} className='flex flex-row items-center cursor-pointer'>
-                    <span className='w-[70px] h-[1px] bg-gray-500 mx-4'></span>Read More +
+                    <span className='w-[70px] h-[1px] bg-gray-500 mx-4'></span>Read {togglePara ? 'Less -' : 'More +'} 
                 </h3>
                 {
                     togglePara &&        
-                <p className='text-gray-700 max-w-3xl'>
-                    Express love for yourself and your family to make everything around you, about you with Bonito Designs.
+                    <div className='space-y-6 text-gray-700 max-w-3xl'>
+  <p>
+    Express your love for yourself and your family by making your surroundings truly reflect who you are with Atharva Constructions & Interiors. At Atharva, we specialize in crafting homes that are as unique as you. As a full-service construction and interior design brand, we create personalized spaces that stand out, giving your home a distinct identity.
+  </p>
 
-                    Bonito Designs is the only full home interior design brand which creates a distinct identity for your home unique to you. An interior design theme allows you to weave a unified motion of design creating a harmonious flow of aesthetics from your living room interior design to your bedroom interior design.
+  <p>
+    Our approach ensures a seamless flow of design, harmonizing every corner—from your living room to your bedroom—into a unified and elegant expression. Your home, the sanctuary where you unwind from the world, is more than just a place to rest. It’s a canvas that holds your dreams, desires, and personal story. 
+  </p>
 
-                    The house, that abode of dreams and desires, is where we all retreat from the stress of the world, where we find solace and sanctuary. But it is also a canvas upon which we can paint the tapestry of our lives, imbuing it with the essence of who we are, our quirks and foibles, our aspirations and triumphs.
+  <p>
+    At Atharva, we believe that your home should reflect your individuality, capturing the essence of your personality and aspirations in every design element. Our team of expert designers stays ahead of trends and themes, working closely with you to bring your vision to life, crafting bespoke interiors that speak to your soul and transform your space into a masterpiece tailored to you.
+  </p>
+</div>
 
-                    At Bonito Designs, we believe that every home should be as special as its owners, reflecting the individuality of its owners with every brushstroke of design.
-
-                    Our team of skilled designers are well-versed in the latest trends and themes, and have worked with some of the most celebrated names in the world of design, crafting homes that are nothing short of masterpieces. we draw inspiration from the finest minds in the industry to create bespoke interiors that speak to your soul.
-                </p>
                 }
             </div>
         </div>

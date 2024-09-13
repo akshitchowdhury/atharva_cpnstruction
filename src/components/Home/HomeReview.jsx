@@ -23,13 +23,13 @@ const HomeReview = () => {
         {/* Accordion Section */}
         {isOpen && (
           <p className="text-gray-700 text-sm italic lg:text-lg mt-4 p-6">
-          – "When we had our house warming party & some of our friends came and they were like, oh wow! You have a good taste, and I was like okay! That's Bonito’s work."
+          – "When we had our house warming party & some of our friends came and they were like, oh wow! You have a good taste, and I was like okay!"
           </p>
         )}
         
         <div className="flex items-center mt-4 cursor-pointer" onClick={toggleAccordion}>
           <hr className="w-8 h-[2px] bg-gray-400 mr-2" />
-          <span className="text-red-500 font-semibold text-sm lg:text-base">
+          <span className="text-red-500 font-normal italic text-sm lg:text-base">
             {isOpen ? 'Read Less -' : 'Read More +'}
           </span>
         </div>

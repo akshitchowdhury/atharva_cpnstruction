@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import homeStory from "../../assets/homeStory.jpg";
 
 const HomeStory = () => {
+  const[toggleComment, setToggleComment] = useState(false);
+
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between
      bg-white px-4 py-8 lg:px-20 space-y-8 lg:space-y-0 lg:space-x-7">
@@ -21,12 +23,23 @@ const HomeStory = () => {
         </h1>
         <ul className="list-disc text-gray-700 p-6 text-sm lg:text-lg italic  space-y-4">
           <li>
-            "We had 90% fixed another design company, but one of our family friends, he convinced us that we have to go & take a look at Bonito Designs & once we were there, we were blown away by the experience centre."
+            "We were almost 90% set on choosing another design company, but a family friend convinced us to visit Atharva Constructions & Interiors. Once we stepped into their experience center, we were completely blown away by the quality and attention to detail. It was an eye-opening experience that made our decision easy.."
           </li>
-          <li>
-            "We definitely liked the Gauri Khan & Manish Malhotra portion design elements in our house. I think a testimony to that is everyone who visits our house, does call out the design of our house."
+          
+          {
+            toggleComment &&
+            <li>
+            "We definitely liked the design elements in our house incorporated. I think a testimony to that is everyone who visits our house, does call out the design of our house."
           </li>
-        </ul>
+
+          }
+          <div className='flex items-center mt-4'>
+          <hr className="w-8 h-[2px] bg-gray-400 mr-2" />
+          <span onClick={() => setToggleComment(!toggleComment)} className="cursor-pointer text-red-500 font-normal  text-sm lg:text-base">
+            {toggleComment ? 'Read Less -' : 'Read More +'}
+          </span>
+          </div>
+                 </ul>
       </div>
     </div>
   );

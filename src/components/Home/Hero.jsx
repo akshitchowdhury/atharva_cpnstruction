@@ -1,5 +1,5 @@
 import React from 'react'
-import homeBg from "../../assets/heroBg.jpg"
+import homeBg from "../../assets/heroBg.png"
 import heroMob from "../../assets/hero-mob.jpg"	
 import HomeBody from './HomeBody'
 import HomeStory from './HomeStory'
@@ -18,12 +18,12 @@ const Hero = () => {
         src={homeBg} 
         alt="Hero Background" 
         className="hidden my-4 sm:block w-full 
-        h-[400px] object-cover md:object-contain   sm:h-[500px] md:h-[300px] lg:h-[500px] " 
+        h-[400px] object-cover md:object-cover   sm:h-[500px] md:my-0 md:h-[400px] lg:h-full " 
       />
       <img 
-        src={heroMob} 
+        src={homeBg} 
         alt="Hero Mobile Background" 
-        className="block sm:hidden w-full h-[400px] object-cover" 
+        className="block sm:hidden w-full h-[400px] object-contain -my-[100px]" 
       />
     </div>
     <HomeBody/>
