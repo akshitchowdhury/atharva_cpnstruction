@@ -1,12 +1,14 @@
 import React from 'react'
 import CareerHero from './CareerHero'
 import CareerText from './CareerText'
+import CareerBody from './CareerBody'
 
 const Career = () => {
   return (
     <div>
         <CareerHero/>
-        <CareerText/>      
+        <CareerText/>
+        <CareerBody/>      
     </div>
   )
 }
