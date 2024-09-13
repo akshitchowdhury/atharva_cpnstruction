@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../../assets/logo.png";
 import './Nav.css'
+import ServicesDropdown from './ServicesDropdown';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,6 +37,14 @@ const Nav = () => {
               About
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
+            {/* <Link 
+              to="/services" 
+              className="text-zinc-950  text-lg hover:text-red-600 relative group"
+            >
+              Services
+              <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+            </Link> */}
+            <ServicesDropdown/>
             <Link 
               to="/gallery" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"
@@ -43,13 +52,7 @@ const Nav = () => {
               Gallery
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
-            <Link 
-              to="/services" 
-              className="text-zinc-950  text-lg hover:text-red-600 relative group"
-            >
-              Services
-              <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-            </Link>
+            
             <Link 
               to="/contact" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"
