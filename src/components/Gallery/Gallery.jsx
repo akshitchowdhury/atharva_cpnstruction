@@ -3,6 +3,7 @@ import GalleryHero from './GalleryHero'
 import GalleryHeroText from './GalleryHeroText'
 import GalleryCards from './GalleryCards'
 import GalleryBranded from './GalleryBranded'
+import AboutQuickConnect from '../About/AboutQuickConnect'
 
 const Gallery = () => {
   return (
@@ -13,7 +14,8 @@ const Gallery = () => {
         
     </div>
     {/* <GalleryCards/>
-    <GalleryBranded/> */}
+    <GalleryBranded/>
+    <AboutQuickConnect/> */}
     </>
   )
 }
