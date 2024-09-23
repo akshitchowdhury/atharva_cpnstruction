@@ -7,7 +7,7 @@ const ServicesDropdown = () => {
         <>
         <div className='hover:cursor-pointer ' onMouseEnter={()=>{setHovered(true)
         setTimeout(()=>{
-            if(hovered===true)
+            
             setHovered(false)
         },2000)}}>
             <Link
@@ -22,10 +22,14 @@ const ServicesDropdown = () => {
 
         {
             hovered && (
-                <div className='bg-white p-4 absolute top-[60px] right-[370px]'>
+                <div className='bg-white z-10 p-4 absolute top-[60px] right-[470px]'>
                 <ul>
-                <li className='text-red-600'>Constructions</li>
-                <li className='text-red-600'>Interiors</li>
+                <li className='text-red-600'>Vastu Architecture</li>
+                <li className='text-red-600'>Elevation Work</li>
+                <li className='text-red-600'>Electrical Work</li>
+                <li className='text-red-600'>Plumbing</li>
+                <li className='text-red-600'>Glass Work</li>
+                <li className='text-red-600'>Fabrication</li>
                 </ul>
                 </div>
             )

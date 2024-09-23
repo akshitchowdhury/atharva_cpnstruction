@@ -1,6 +1,6 @@
 import React from 'react'
 import { MapPin, Mail, Phone, Home, PersonStandingIcon, GalleryHorizontalEndIcon, WorkflowIcon } from 'lucide-react'
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logoRe.jpg"
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0 bg-black rounded-full">
           <img
     src={logo}
-    className="w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] 
+    className="w-[120px] rounded-full h-[120px] lg:w-[150px] lg:h-[150px] 
     transition-transform duration-500 transform hover:rotate-180"
     alt="Logo"
   />

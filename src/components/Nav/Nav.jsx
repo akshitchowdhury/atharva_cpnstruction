@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logoRe.jpg";
 import './Nav.css'
 import ServicesDropdown from './ServicesDropdown';
 const Nav = () => {
@@ -18,7 +18,7 @@ const Nav = () => {
           {/* Logo */}
           <div className="flex items-center bg-black rounded-full">
             <img src={logo} className="w-[80px] h-[80px] lg:w-[70px] lg:h-[70px]
-            transition-transform duration-500 transform hover:rotate-180" alt="Logo" />
+            transition-transform rounded-full duration-500 transform hover:rotate-180" alt="Logo" />
           </div>
 
           {/* Desktop Menu */}
@@ -37,14 +37,14 @@ const Nav = () => {
               About
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
             </Link>
-            <Link 
+            {/* <Link 
               to="/services" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"
             >
               Services
               <span className="absolute left-0 bottom-[-2px] w-full h-[2px] bg-red-600 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-            </Link>
-            {/* <ServicesDropdown/> */}
+            </Link> */}
+            <ServicesDropdown/>
             <Link 
               to="/gallery" 
               className="text-zinc-950  text-lg hover:text-red-600 relative group"

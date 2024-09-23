@@ -13,9 +13,12 @@ const Gallery = () => {
         <GalleryHeroText/> 
         
     </div>
-    {/* <GalleryCards/>
+    <GalleryCards/>
     <GalleryBranded/>
-    <AboutQuickConnect/> */}
+    <AboutQuickConnect/>
+    
+    <GalleryBranded/>
+    <AboutQuickConnect/>
     </>
   )
 }
