@@ -17,8 +17,8 @@ const Gallery = () => {
     <GalleryBranded/>
     <AboutQuickConnect/>
     
-    <GalleryBranded/>
-    <AboutQuickConnect/>
+    {/* <GalleryBranded/>
+    <AboutQuickConnect/> */}
     </>
   )
 }
